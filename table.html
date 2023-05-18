@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+    <style>
+        table{
+            font-family:Arial, Helvetica, sans-serif;
+            height: 250px;
+            width: 500px;
+        }
+        th{
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+    <table border=1 align="center">
+        <caption>TABLE</caption>
+        <tr>
+            <th>Простий заголовок</th><th colspan="2">Заголовок на 2 стовпці</th>
+        </tr>
+        <tr bgcolor="grey">
+            <th>Заголовок на 1 рядок</th><td>Комірка 1</td><td bgcolor="#388059">Комірка 2</td>
+        </tr>
+        <tr>
+            <th rowspan="3">Заголовок на 3 рядки</th><td align="center">Комірка 3</td><td align="right">Комірка 4</td>
+        </tr>
+        <tr>
+            <td><font color="red">Комірка 5</font></td><td rowspan="2" align="center" valign="bottom">Комірка 6</td>
+        </tr>
+        <tr>
+            <td>Комірка 7</td>
+        </tr>
+    </table>
+</body>
+</html>

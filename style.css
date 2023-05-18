@@ -1,0 +1,21 @@
+body {
+    font-family:  'Comic Sans MS', cursive; ;
+    background-image: url(https://marketplace.canva.com/EAFKazjWmMg/1/0/1600w/canva-minimalist-abstract-desktop-wallpaper-8vx5pcfhbAM.jpg);
+}
+table {
+    background-color: rgb(158, 107, 77);
+    color: rgb(255, 247, 240);
+    width: 50%;
+}
+caption {
+    text-shadow: 1px 1px 1px #5b125c;
+    font-size: 32px;
+    color: rgb(99, 44, 19);
+}
+img {
+    border: 5px solid rgb(99, 44, 19);
+    width:100px;
+}
+a {
+    color: #ffd29f;
+}
